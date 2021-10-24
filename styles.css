@@ -20,7 +20,6 @@ footer {
 
 header,
 section,
-footer,
 aside,
 nav,
 main,
@@ -54,6 +53,20 @@ nav>ul>li a {
     font-weight: bold;
 }
 
+form {
+    text-align: center;
+    font-weight: bold;
+    
+}
 
+footer{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    }
+
+   #linkspage>ul>li {
+       margin-bottom: 5px;
+   }
 
 
