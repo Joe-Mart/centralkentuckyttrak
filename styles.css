@@ -9,8 +9,9 @@ body {
 }
 
 p,
-main {
-    margin-left: 2px;
+main,
+footer {
+    margin-left: 10px;
 }
 
 #mainheader {
