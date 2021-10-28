@@ -28,23 +28,26 @@ figure {
     display: block;
    }
 
-nav {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
     width: 1000px;
     margin: 0 auto 20px;
 }
 
-nav>ul {
+.nav-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav>ul>li {
+.nav-item {
     float: left;
 }
 
-nav>ul>li a {
+.nav-item a {
     display: block;
     color: white;
     text-align: center;
@@ -69,4 +72,10 @@ footer{
        margin-bottom: 5px;
    }
 
+.clublogo {
+    width: 200px;
+}
 
+.ttraklogo {
+    width: 200px;
+}
