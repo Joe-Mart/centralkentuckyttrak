@@ -71,11 +71,11 @@ footer{
    #linkspage>ul>li {
        margin-bottom: 5px;
    }
-
+/* 100px mobile, 150px tablet, 200px desktop */
 .clublogo {
-    width: 200px;
+    width: 100px; 
 }
 
 .ttraklogo {
-    width: 200px;
+    width: 100px;
 }
