@@ -30,16 +30,38 @@
             </div>
             <h1 style="font-size:35px;color: black;text-align: center;"> Contact Us</h1>
         </div>
-        <form id="contact" method="get" action="thanks.html">
-            <label for="fname"; style="margin-bottom: 15px;">First name:<span>(required)</span></label><br>
-            <input type="text" id="fname" name="fname"; style="margin-bottom: 15px;"><br>
-            <label for="lname"; style="margin-bottom: 15px;">Last name:<span>(required)</span></label><br>
-            <input type="text" id="lname" name="lname"; style="margin-bottom: 15px;"><br>
-            <label for="email"; style="margin-bottom: 15px;">Email Address:<span>(required)</span></label><br>
-            <input type="text" id="email" name="email"; placeholder="someone@email.com";style="margin-bottom: 15px;"><br>
-            <label for="comment"; style="margin-bottom: 15px;">Comment or question:<span>(preferred)</span></label><br>
-            <input type="text" id="comment" name="comment"; style="margin-bottom: 15px;"><br>
-            <input type="submit" value="Ask My Question"; style="margin-bottom: 15px;" class="BtnSubmit";>
+        <form name="myForm" action="thanks.html" method="post"
+        onsubmit="return validateForm()">
+            <section id="formProblems" class="">
+                <p>There was a problem with your submission.<br>Errors have been highlighted below.</p>
+            </section>
+            <section id="fname" class="">
+            <label><div>First Name</div>
+                <input name="fname" type="text" class="myInput">
+                <span>Please Enter your First Name</span>
+            </label>
+            </section>
+            <section id="lname" class="">
+                <label><div>Last Name</div>
+                    <input name="lname" type="text" class="myInput">
+                    <span>Please Enter your Last Name</span>
+                </label>
+            </section>
+            <section id="email" class="">
+                <label><div>Email Address</div>
+                    <input name="email" type="text" class="myInput" placeholder="someone@email.com">
+                    <span>Please Enter your Email Address</span>
+                </label>
+            </section>
+            <section id="comment" class="">
+                <label><div>Question and/or Comment</div>
+                    <input name="comment" type="text" class="myInput" style="width: 300px; height: 100px;">
+                    <span>Please Enter your Comment or Question</span>
+                </label>
+            </section>
+            <section id="btnSubmit">
+            <input type="submit" value="Ask My Question"; style="margin-bottom: 25px;" class="btnSubmit";>
+            </section>  
           </form>
     </body>
     <footer>
