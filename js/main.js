@@ -36,16 +36,3 @@ function validateForm() {
     return status;
 } // end of the form
 
-//stores items in the localStorage
-
-/*function store(){ 
-var fname = document.getElementById('fname').value;
-var lname = document.getElementById('lastname').value;
-var email = document.getElementById('email').value;
-var comment = document.getElementById('comment').value;
-
-}
-
-window.localStorage.setItem(fname,lname,email,comment);  
-
-}*/
