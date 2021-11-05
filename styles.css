@@ -77,7 +77,8 @@ footer{
     width: 100px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px) {
+    @media screen and (min-width: 500px) and (max-width: 750px) 
+    {
     body {
         background: rgb(152, 72, 226);
         font-size: 3vw;
@@ -90,7 +91,9 @@ footer{
         width: 300px;
     }
     }
-    @media screen and (max-width: 450px){
+    
+    @media screen and (max-width: 450px)
+    {
     body {
         background: yellow;
         font-size: 5vw;
@@ -104,6 +107,7 @@ footer{
         width: 200px;
     }
     }
+
     .main {
         display: flex;
         justify-content: space-between;
