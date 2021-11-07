@@ -12,7 +12,8 @@ Items currently created and/or working to meet the minimum requirements:
                    b. Create the hamburger button to show on mobile and tablet devices.
                    c. If the hamburger button does not work, consider creating a media player in the tornadomod.html file.
 3.  JavaScript:    a. Contact form that validates the existence of information.  Still need to work on storing that 
-                      information locally.  The Contact form will not be used if I publish the site.
+                      information locally.  The Contact form will not be used if I publish the site.  Updated the process
+                      to make sure email address is in the proper format.
 
 Current issues have been mentioned, but to recap:
 
