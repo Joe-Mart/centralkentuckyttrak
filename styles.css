@@ -9,6 +9,22 @@ body {
     background-image: url('../img/parchmt.gif');
 }
 
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
 p,
 main,
 footer {
@@ -21,18 +37,19 @@ footer {
 
 header,
 section,
-aside,
 nav,
 main,
-article,
-figure {
+article {
     display: block;
+   
    }
+
+
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: left;
     height: 80px;
     width: 1000px;
     margin: 0 auto 20px;
@@ -75,39 +92,47 @@ footer{
    }
 
 .clublogo, .ttraklogo {
-    width: 100px;
+    width: 75px;
 }
 
-    @media screen and (min-width: 500px) and (max-width: 750px) 
+img {width: 200px;}
+
+    @media all and (min-width: 500px) and (max-width: 750px) 
     {
     body {
-        background: rgb(152, 72, 226);
-        font-size: 3vw;
+        
+        font-size: 25px;
       }
+    h1 {
+        font-size: 25px;
+    }
     .clublogo, .ttraklogo {
-        width: 75px;
+        width: 100px;
         
       }
     img {
         width: 300px;
     }
-    }
+       
+    }/* End media query */
     
-    @media screen and (max-width: 450px)
+    @media all and (min-width: 751px)
     {
     body {
-        background: yellow;
-        font-size: 5vw;
+        
+        font-size: 20px;
 
     }
     .clublogo, .ttraklogo {
-        width: 50px;
+        width: 125px;
         
       }
     img {
-        width: 200px;
+        width: 600px;
     }
-    }
+    h1 {font-size: 25px;}
+   
+    } /* End media query */
 
     .main {
         display: flex;
@@ -140,6 +165,7 @@ footer{
     #comment,
     #btnSubmit {
         padding: 10px;
+        text-align: center;
     }
 
   section p {display: none;}
@@ -149,3 +175,103 @@ footer{
 	background-color: rgba(255,0,0,0.3);
 	padding: .3rem;
     }
+
+ /* hamburger icon */
+ /* Position hamburger top left of body tag */   
+
+/*.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid #fff;
+    }
+
+/* Creating Bars - Hamburger 
+
+.menu-btn_burger {
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn_burger::after {
+    transform: translateY(16px);
+}
+
+/* ANIMATION 
+
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+    }
+
+.menu-btn.open .menu-btn_burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+
+/* mobile viewport 
+.navbar {
+    display: none;
+}
+
+.navbar:active {
+    position: relative;
+    display: block;
+    background-color: lavender;
+    text-align: center;
+}
+
+/* media query tablet and > 
+@media all and(max-width: 499px) {
+    
+    .navbar {
+        display: flex;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .item {
+        position: relative;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+}*/
+
