@@ -73,6 +73,7 @@ article {
     padding: 12px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 15px;
 }
 
 form {
@@ -87,7 +88,7 @@ footer{
     font-weight: bold;
     }
 
-   #linkspage>ul>li {
+#linkspage>ul>li {
        margin-bottom: 5px;
    }
 
@@ -97,7 +98,7 @@ footer{
 
 img {width: 200px;}
 
-    @media all and (min-width: 500px) and (max-width: 750px) 
+@media all and (min-width: 500px) and (max-width: 750px) 
     {
     body {
         
@@ -114,9 +115,9 @@ img {width: 200px;}
         width: 300px;
     }
        
-    }/* End media query */
+}/* End media query */
     
-    @media all and (min-width: 751px)
+@media all and (min-width: 751px)
     {
     body {
         
@@ -132,7 +133,7 @@ img {width: 200px;}
     }
     h1 {font-size: 25px;}
    
-    } /* End media query */
+} /* End media query */
 
     .main {
         display: flex;
