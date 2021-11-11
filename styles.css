@@ -48,8 +48,8 @@ article {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 1000px;
     margin: 0 auto 20px;
@@ -67,7 +67,9 @@ article {
 }
 
 .nav-item a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     color: white;
     text-align: center;
     padding: 12px;
@@ -77,19 +79,21 @@ article {
 }
 
 form {
+    display: block;
     text-align: center;
     font-weight: bold;
-    
+    margin: auto;
 }
 
 footer{
+    margin-top: 10px;
     display: block;
     text-align: center;
     font-weight: bold;
     }
 
 #linkspage>ul>li {
-       margin-bottom: 5px;
+   margin-bottom: 5px;
    }
 
 .clublogo, .ttraklogo {
@@ -97,6 +101,12 @@ footer{
 }
 
 img {width: 200px;}
+
+#previewMsg {
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 @media all and (min-width: 500px) and (max-width: 750px) 
     {
@@ -164,7 +174,7 @@ img {width: 200px;}
     #lname,
     #email,
     #comment,
-    #btnSubmit {
+    #btnSubmit     {
         padding: 10px;
         text-align: center;
     }

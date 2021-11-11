@@ -30,11 +30,11 @@
             <h1>Contact Us</h1>
         </div> 
        
-        <form name="myForm" action="/thanks.html" method="get"
-        onsubmit="return validateForm()">
+        <form name="myForm" action="contact.html" method="post">
+        <!--onsubmit="return validateForm()">
             <section id="formProblems" class="">
                 <p>There was a problem with your submission.<br>Errors have been highlighted below.</p>
-            </section>
+            </section>-->
             <section id="fname" class="">
             <label><div>First Name</div>
                 <input name="fname" type="text" class="myInput">
@@ -59,15 +59,15 @@
                     <span>Please Enter your Comment or Question</span>
                 </label>
             </section>
-            <section id="btnSubmit">
+            <!--<section id="btnSubmit">
             <input type="submit" value="Ask My Question"; style="margin-bottom: 25px;" class="btnSubmit";>
-            </section>  
-          </form>
-          
-          <!-- <div id="previewMsg">
-              <button type="button" onclick="preview()">Send Message</button>
-          </div> -->
-          
+            </section>  -->
+            
+        </form>
+          <div id="previewMsg">
+            <button type="button" onclick="preview()">Send Message</button>
+          </div>
+                   
     </body>
     <footer>
         <small>&copy;2021 Joseph B. Martin - All rights reserved</small>

@@ -1,7 +1,7 @@
 /*jslint browser:true */
 "use strict";
 
-function validateForm() {
+/*function validateForm() {
     var status = true;
     var x;
 
@@ -34,7 +34,9 @@ function validateForm() {
     }
 
     return status;
-} // end of the form
+} // end of the form*/
+
+ // Changed js code to display information per Code Louisville requirements.
 
 function getData() {
     let allMsg = [];
@@ -55,7 +57,7 @@ function preview () {
     let previewMsg = document.getElementById("previewMsg");
 
     previewMsg.innerHTML = `${data}`;
-    /*document.forms.myForm.reset();*/
+    document.forms.myForm.reset();
 }
 
 /* Menu button animation/navigation js 
