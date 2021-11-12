@@ -7,6 +7,7 @@ body {
     margin-right: auto;
     background-color: #e6e4d9;
     background-image: url('../img/parchmt.gif');
+    font-size: 15px;
 }
 
 h1 {
@@ -29,6 +30,7 @@ p,
 main,
 footer {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 #mainheader {
@@ -97,15 +99,16 @@ footer{
    }
 
 .clublogo, .ttraklogo {
-    width: 75px;
+    width: 200px;
 }
 
-img {width: 200px;}
+img {width: 200px;
+align-content: center;}
 
-#previewMsg {
+/*#previewMsg {
     margin-top: 10px;
     text-align: center;
-}
+}*/
 
 
 @media all and (min-width: 500px) and (max-width: 750px) 
@@ -118,11 +121,22 @@ img {width: 200px;}
         font-size: 20px;
     }
     .clublogo, .ttraklogo {
-        width: 100px;
+        width: 225px;
         
       }
     img {
         width: 400px;
+    }
+    .nav-item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
     }
        
 }/* End media query */
@@ -131,17 +145,28 @@ img {width: 200px;}
     {
     body {
         
-        font-size: 15px;
+        font-size: 25px;
 
     }
     .clublogo, .ttraklogo {
-        width: 125px;
+        width: 250px;
         
       }
     img {
         width: 600px;
     }
     h1 {font-size: 25px;}
+    .nav-item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        color: white;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+    }
    
 } /* End media query */
 
