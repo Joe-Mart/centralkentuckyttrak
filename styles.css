@@ -40,8 +40,7 @@ footer {
 header,
 section,
 nav,
-main,
-article {
+main {
     display: block;
    
    }
@@ -228,6 +227,12 @@ align-content: center;}
 	padding: .3rem;
     }
 
- 
-
+    .showrow  {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 5px;
+      }
+    .showcolumn {
+        flex: 100px;
+    }
     
